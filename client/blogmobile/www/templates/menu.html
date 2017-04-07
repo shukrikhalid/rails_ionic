@@ -1,0 +1,21 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="side-menu21"></ion-nav-view>
+  </ion-side-menu-content>
+  <ion-side-menu side="left" id="side-menu21">
+    <ion-header-bar class="bar-stable">
+      <div class="title">Menu</div>
+    </ion-header-bar>
+    <ion-content padding="false" class="side-menu-left has-header ">
+      <a ui-sref="menu.list" menu-close="" id="menu-button1" class="button button-positive  button-block">List</a>
+      <a ui-sref="menu.addNew" menu-close="" id="menu-button2" class="button button-positive  button-block">Add New</a>
+      <button id="menu-button3" class="button button-positive  button-block">LogOut</button>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>

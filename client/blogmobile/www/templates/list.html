@@ -1,0 +1,25 @@
+<ion-view title="List" id="page5">
+  <ion-content padding="true" class="has-header">
+    <ion-list id="list-list1" >
+    <div>
+    	<ion-item id="list-list-item1" ng-repeat="p in listall" ng-click="goDetail(p.id)">
+
+      {{p.id}}
+      <br>
+      {{p.title}}
+      </ion-item>	
+    </div>
+      
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+<!--
+<a href="#/detail/{{p.id}}" class="item" ng-repeat="p in listall">
+      
+      <h2>{{p.id}}</h2>
+      <br>
+      {{p.title}}
+      
+     </a>
+     -->
